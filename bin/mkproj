@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+# Creates a new ISE project.
+
+function die {
+  echo "${PROGNAME}: $@" >&2
+  exit 1
+}
+
+BINDIR=$(dirname "$0")
+PROGNAME=$(basename "$0")
+
+ETCDIR=$(readlink -f ${BINDIR}/../etc)
+
+[[ $# -eq 1 ]] || die "Missing directory"
+PROJDIR=${1}
+
+mkdir -p ${PROJDIR}/ise ${PROJDIR}/src
+cp ${ETCDIR}/blank.xise ${PROJDIR}/ise/$(basename ${PROJDIR}).xise
+cp ${ETCDIR}/mojo.ucf ${PROJDIR}/src
