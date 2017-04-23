@@ -6,15 +6,15 @@ library simmonmt;
 use simmonmt.libbase.all;
 use simmonmt.libutil.all;
 
-entity vga is
+entity vga_demo is
   port(
     clk: in std_logic;
     vga: out std_logic_vector(4 downto 0);
     dbg: out std_logic_vector(7 downto 0)
   );
-end vga;
+end vga_demo;
 
-architecture arch of vga is
+architecture arch of vga_demo is
   constant HRES: integer := 640;
   constant VRES: integer := 480;
 
