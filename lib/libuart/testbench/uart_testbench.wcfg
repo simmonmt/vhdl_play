@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/simmonmt/src/vhdl_play/lib/libuart/ise/uart_testbench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="libbase" />
+            <top_module name="libuart_int" />
+            <top_module name="libutil" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="uart_testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/uart_testbench/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_testbench/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_testbench/r_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_testbench/w_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">w_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">w_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_testbench/rd_uart" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_uart</obj_property>
+      <obj_property name="ObjectShortName">rd_uart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_testbench/wr_uart" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_uart</obj_property>
+      <obj_property name="ObjectShortName">wr_uart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_testbench/rd_empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_empty</obj_property>
+      <obj_property name="ObjectShortName">rd_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_testbench/wr_full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_full</obj_property>
+      <obj_property name="ObjectShortName">wr_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_testbench/rx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_testbench/tx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_testbench/t" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">t</obj_property>
+      <obj_property name="ObjectShortName">t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_testbench/ascii_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ascii_a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ascii_a[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_testbench/uut/uart_rx_unit/byte_tick" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">byte_tick</obj_property>
+      <obj_property name="ObjectShortName">byte_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_testbench/uut/uart_rx_unit/bit_sample" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bit_sample</obj_property>
+      <obj_property name="ObjectShortName">bit_sample</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_testbench/uut/uart_rx_unit/state_reg" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state_reg</obj_property>
+      <obj_property name="ObjectShortName">state_reg</obj_property>
+   </wvobject>
+</wave_config>
