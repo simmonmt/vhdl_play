@@ -16,6 +16,14 @@ package libutil is
       );
   end component fifo;
 
+  component counter is
+    generic(WIDTH: integer := 16);
+    port(
+      clk, reset: in std_logic;
+      tick: out std_logic
+    );
+  end component counter;
+
   component mod_counter is
     generic(MODVAL: integer := 16);
     port(
