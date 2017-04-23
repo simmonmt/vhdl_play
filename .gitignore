@@ -1,0 +1,5 @@
+**/ise/**
+!*.xise
+*.aux
+*.log
+*.synctex.gz
