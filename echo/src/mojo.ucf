@@ -1,0 +1,54 @@
+NET "clk" TNM_NET = clk;
+TIMESPEC TS_clk = PERIOD "clk" 50 MHz HIGH 50%;
+
+NET "clk" LOC = P56 | IOSTANDARD = LVTTL;
+
+NET "dbg<0>" LOC = P57 | IOSTANDARD = LVTTL;
+NET "dbg<1>" LOC = P66 | IOSTANDARD = LVTTL;
+NET "dbg<2>" LOC = P74 | IOSTANDARD = LVTTL;
+NET "dbg<3>" LOC = P78 | IOSTANDARD = LVTTL;
+NET "dbg<4>" LOC = P80 | IOSTANDARD = LVTTL;
+NET "dbg<5>" LOC = P82 | IOSTANDARD = LVTTL;
+NET "dbg<6>" LOC = P84 | IOSTANDARD = LVTTL;
+NET "dbg<7>" LOC = P87 | IOSTANDARD = LVTTL;
+
+#NET "sw<0>" LOC = P51 | IOSTANDARD = LVTTL | PULLUP; # purple
+#NET "sw<1>" LOC = P41 | IOSTANDARD = LVTTL | PULLUP; # gray
+#NET "sw<2>" LOC = P35 | IOSTANDARD = LVTTL | PULLUP; # white
+#NET "sw<3>" LOC = P33 | IOSTANDARD = LVTTL | PULLUP; # black
+#NET "sw<4>" LOC = P30 | IOSTANDARD = LVTTL | PULLUP; # purple
+#NET "sw<5>" LOC = P27 | IOSTANDARD = LVTTL | PULLUP; # gray
+#NET "sw<6>" LOC = P24 | IOSTANDARD = LVTTL | PULLUP; # white
+#NET "sw<7>" LOC = P22 | IOSTANDARD = LVTTL | PULLUP; # black
+
+#NET "btn<0>" LOC = P143 | IOSTANDARD = LVTTL;
+#NET "btn<1>" LOC = P141 | IOSTANDARD = LVTTL;
+#NET "btn<2>" LOC = P139 | IOSTANDARD = LVTTL;
+#NET "btn<3>" LOC = P137 | IOSTANDARD = LVTTL;
+
+#NET "led<0>" LOC = P134 | IOSTANDARD = LVTTL;
+#NET "led<1>" LOC = P133 | IOSTANDARD = LVTTL;
+#NET "led<2>" LOC = P132 | IOSTANDARD = LVTTL;
+#NET "led<3>" LOC = P131 | IOSTANDARD = LVTTL;
+#NET "led<4>" LOC = P127 | IOSTANDARD = LVTTL;
+#NET "led<5>" LOC = P126 | IOSTANDARD = LVTTL;
+#NET "led<6>" LOC = P124 | IOSTANDARD = LVTTL;
+#NET "led<7>" LOC = P123 | IOSTANDARD = LVTTL;
+
+#NET "an<3>" LOC = P10 | IOSTANDARD = LVTTL; # red
+#NET "an<2>" LOC = P12 | IOSTANDARD = LVTTL; # brown
+#NET "an<1>" LOC = P15 | IOSTANDARD = LVTTL; # black
+#NET "an<0>" LOC = P17 | IOSTANDARD = LVTTL; # white
+
+#NET "sseg<0>" LOC = P16 | IOSTANDARD = LVTTL; # g yellow
+#NET "sseg<1>" LOC = P14 | IOSTANDARD = LVTTL; # f green
+#NET "sseg<2>" LOC = P11 | IOSTANDARD = LVTTL; # e blue
+#NET "sseg<3>" LOC = P9 | IOSTANDARD = LVTTL; # d yellow
+#NET "sseg<4>" LOC = P7 | IOSTANDARD = LVTTL; # c orange
+#NET "sseg<5>" LOC = P5 | IOSTANDARD = LVTTL; # b red
+#NET "sseg<6>" LOC = P1 | IOSTANDARD = LVTTL; # a brown
+#NET "sseg<7>" LOC = P21 | IOSTANDARD = LVTTL; # dp orange
+
+#NET "ser_cts" LOC = P120 | IOSTANDARD = LVTTL;
+NET "ser_rxd" LOC = P118 | IOSTANDARD = LVTTL;
+NET "ser_txd" LOC = P116 | IOSTANDARD = LVTTL;
